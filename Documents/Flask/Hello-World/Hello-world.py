@@ -19,7 +19,7 @@ def printHello(Name):
 methods = ['POST'])
 def CreateUser():
     nameMap["name"] = lastName
-    return "User has been created"
+    return "User has been created",201
 
         
 if __name__ == "__main__":
